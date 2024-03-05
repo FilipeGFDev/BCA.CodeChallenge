@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car.Auction.Management.System.Web", "Car.Auction.Management.System.Web\Car.Auction.Management.System.Web.csproj", "{350890C0-3C05-4BFB-BDDD-2A4763BEDE94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Infrastructure", "1 - Infrastructure", "{CA4269BF-DE10-4124-AE6D-E4830BFA62AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{D6BFD2FC-C36D-4C56-89DF-0B46CF891A15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Contracts", "3 - Contracts", "{7A09A53C-7AF2-43DF-BAE4-DE58F44030CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Tests", "4 - Tests", "{6495AC03-AADE-4EF4-B5E1-7F3752C8207A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Environment", "5 - Environment", "{29951355-FA1D-4AA6-8C82-9DBAF114404F}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		.dockerignore = .dockerignore
+		docker-compose.yml = docker-compose.yml
+		BCA.CodeChallenge.postman_collection.json = BCA.CodeChallenge.postman_collection.json
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car.Auction.Management.System.SqlServer", "Car.Auction.Management.System.SqlServer\Car.Auction.Management.System.SqlServer.csproj", "{F9ED018B-8019-4D2B-BA81-CDB4F0C77733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car.Auction.Management.System.Application", "Car.Auction.Management.System.Application\Car.Auction.Management.System.Application.csproj", "{C0B207A6-0539-4FDB-8B14-29E031AC0AAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car.Auction.Management.System.Contracts.Web", "Car.Auction.Management.System.Contracts.Web\Car.Auction.Management.System.Contracts.Web.csproj", "{D0E69238-6544-45BA-AA73-89C35BB67D34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car.Auction.Management.System.Models", "Car.Auction.Management.System.Models\Car.Auction.Management.System.Models.csproj", "{F35999E6-7DE6-4577-BC40-70D39EF7BF54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastrucure", "Infrastrucure", "{7D1C48B4-B325-42A3-B52C-AD5F494F5F4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{579F8C52-7E6D-4A7F-9718-83AAC80DA8D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car.Auction.Management.System.Web.Tests", "Car.Auction.Management.System.Web.Tests\Car.Auction.Management.System.Web.Tests.csproj", "{23BB2827-6F64-45CA-928B-85AF1A4F9CB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car.Auction.Management.System.Application.Tests", "Car.Auction.Management.System.Application.Tests\Car.Auction.Management.System.Application.Tests.csproj", "{B7110632-A7D5-4FB8-A232-E05194277C92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car.Auction.Management.System.SqlServer.Tests", "Car.Auction.Management.System.SqlServer.Tests\Car.Auction.Management.System.SqlServer.Tests.csproj", "{EA56AB97-F1A2-4A9A-9D89-48419C639102}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{350890C0-3C05-4BFB-BDDD-2A4763BEDE94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{350890C0-3C05-4BFB-BDDD-2A4763BEDE94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{350890C0-3C05-4BFB-BDDD-2A4763BEDE94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{350890C0-3C05-4BFB-BDDD-2A4763BEDE94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9ED018B-8019-4D2B-BA81-CDB4F0C77733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9ED018B-8019-4D2B-BA81-CDB4F0C77733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9ED018B-8019-4D2B-BA81-CDB4F0C77733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9ED018B-8019-4D2B-BA81-CDB4F0C77733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B207A6-0539-4FDB-8B14-29E031AC0AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B207A6-0539-4FDB-8B14-29E031AC0AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B207A6-0539-4FDB-8B14-29E031AC0AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B207A6-0539-4FDB-8B14-29E031AC0AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0E69238-6544-45BA-AA73-89C35BB67D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E69238-6544-45BA-AA73-89C35BB67D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E69238-6544-45BA-AA73-89C35BB67D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E69238-6544-45BA-AA73-89C35BB67D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F35999E6-7DE6-4577-BC40-70D39EF7BF54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F35999E6-7DE6-4577-BC40-70D39EF7BF54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F35999E6-7DE6-4577-BC40-70D39EF7BF54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F35999E6-7DE6-4577-BC40-70D39EF7BF54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23BB2827-6F64-45CA-928B-85AF1A4F9CB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23BB2827-6F64-45CA-928B-85AF1A4F9CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23BB2827-6F64-45CA-928B-85AF1A4F9CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23BB2827-6F64-45CA-928B-85AF1A4F9CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7110632-A7D5-4FB8-A232-E05194277C92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7110632-A7D5-4FB8-A232-E05194277C92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7110632-A7D5-4FB8-A232-E05194277C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7110632-A7D5-4FB8-A232-E05194277C92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA56AB97-F1A2-4A9A-9D89-48419C639102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA56AB97-F1A2-4A9A-9D89-48419C639102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA56AB97-F1A2-4A9A-9D89-48419C639102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA56AB97-F1A2-4A9A-9D89-48419C639102}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{350890C0-3C05-4BFB-BDDD-2A4763BEDE94} = {CA4269BF-DE10-4124-AE6D-E4830BFA62AD}
+		{F9ED018B-8019-4D2B-BA81-CDB4F0C77733} = {CA4269BF-DE10-4124-AE6D-E4830BFA62AD}
+		{C0B207A6-0539-4FDB-8B14-29E031AC0AAF} = {D6BFD2FC-C36D-4C56-89DF-0B46CF891A15}
+		{D0E69238-6544-45BA-AA73-89C35BB67D34} = {7A09A53C-7AF2-43DF-BAE4-DE58F44030CE}
+		{F35999E6-7DE6-4577-BC40-70D39EF7BF54} = {D6BFD2FC-C36D-4C56-89DF-0B46CF891A15}
+		{7D1C48B4-B325-42A3-B52C-AD5F494F5F4C} = {6495AC03-AADE-4EF4-B5E1-7F3752C8207A}
+		{579F8C52-7E6D-4A7F-9718-83AAC80DA8D1} = {6495AC03-AADE-4EF4-B5E1-7F3752C8207A}
+		{23BB2827-6F64-45CA-928B-85AF1A4F9CB1} = {7D1C48B4-B325-42A3-B52C-AD5F494F5F4C}
+		{B7110632-A7D5-4FB8-A232-E05194277C92} = {579F8C52-7E6D-4A7F-9718-83AAC80DA8D1}
+		{EA56AB97-F1A2-4A9A-9D89-48419C639102} = {7D1C48B4-B325-42A3-B52C-AD5F494F5F4C}
+	EndGlobalSection
+EndGlobal

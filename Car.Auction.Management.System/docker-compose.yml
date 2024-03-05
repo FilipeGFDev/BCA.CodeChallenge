@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  sql_server:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: mssql-server-db
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Express"
+      MSSQL_SA_PASSWORD: "My_Password123"
+      MSSQL_TCP_PORT: "1433"
+    ports:
+      - "1433:1433"

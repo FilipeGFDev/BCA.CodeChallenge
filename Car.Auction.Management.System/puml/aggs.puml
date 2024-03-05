@@ -1,0 +1,65 @@
+﻿@startuml
+!define ENTITY class
+
+left to right direction
+
+ENTITY Auction {
+    + Id: GUID
+    + Description: string
+    + VehicleId: GUID
+    + StartedAt: DateTime
+    + ClosedAt: DateTime
+    + CreatedAt: DateTime
+    + IsActive: bool
+}
+
+ENTITY Bid {
+    + Id: GUID
+    + UserId: GUID
+    + Amount: decimal
+    + AuctionId: GUID
+    + CreatedDate: DateTime
+}
+
+ENTITY Vehicle {
+    + Id: GUID
+    + Manufacturer: string
+    + Model: string
+    + Year: int
+    + StartingBid: decimal
+    + IsAvailable: bool
+    + CreatedAt: DateTime
+    --
+    + ChangeToUnavailable()
+}
+
+ENTITY Hatchback {
+    extends Vehicle
+    + DoorsNumber: int
+}
+
+ENTITY Sedan {
+    extends Vehicle
+    + DoorsNumber: int
+}
+
+ENTITY Suv {
+    extends Vehicle
+    + SeatsNumber: int
+}
+
+ENTITY Truck {
+    extends Vehicle
+    + LoadCapacity: int
+}
+
+Hatchback --|> Vehicle
+Sedan --|> Vehicle
+Suv --|> Vehicle
+Truck --|> Vehicle
+
+Auction -- Vehicle
+Bid -- Auction
+Bid -- Vehicle
+
+@enduml
